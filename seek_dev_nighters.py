@@ -36,7 +36,7 @@ def get_midnighters(load_attempts):
 
 if __name__ == '__main__':
     midnighters = get_midnighters(load_attempts())
-    if len(midnighters) > 0:
+    if midnighters:
         print('Night Owl students on DevMan:')
-        for name in midnighters:
-            print(name)
+        for username in midnighters:
+            print(username)
