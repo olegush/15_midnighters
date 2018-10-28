@@ -4,7 +4,7 @@ The script finds users who send tasks to DEVMAN course after midnight untill 6 a
 
 # How to Install
 
-Python **request**, **pytz** and **datetime** module should be already installed. 
+Python **request** and **pytz** modules should be already installed. 
 
 # Quickstart
 
@@ -16,8 +16,10 @@ Example of script launch on Linux, Python 3.5:
 
 $ python seek_dev_nighters.py
 
-['Sova1','night-owl']
-
+Night Owl students on DevMan:
+'Sova1'
+'night-owl'
+'sovowl'
 ```
 
 # Project Goals
